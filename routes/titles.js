@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const request = require("request");
-var parseString = require("xml2js").parseString;
+const parseString = require("xml2js").parseString;
 
 router.get("/", (req, res) => {
   request(
